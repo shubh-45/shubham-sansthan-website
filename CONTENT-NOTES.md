@@ -17,7 +17,7 @@ These are taken directly from the Blogger pages and from the photographed signbo
 |---|---|
 | Name: शुभम् संस्थान, बाड़मेर / Subham Sansthan, Barmer | Signboard image + blog title |
 | Founded 2000; registered under the Rajasthan Societies Registration Act, 1958 | "Introduction" post |
-| Registration No. 64/बाड़/2001-02 | Signboard image |
+| Registration No. 64/बाड़/2001-02 | Signboard image — **deliberately not published on the site**, at your request |
 | Registered with the Public Relations Bureau, Ministry of Information & Broadcasting, Govt. of India | "Introduction" post + signboard |
 | Registered with the Song & Drama Division (गीत एवं नाटक प्रभाग) | Signboard image |
 | Registered with the National AIDS Control Organisation (NACO), New Delhi | "Introduction" post |
@@ -78,9 +78,9 @@ but you should still read it and make it sound like you.
 
 ## 4. Things you should add
 
-- [ ] **Real photographs.** This is the biggest gap. Twenty-five years of camps,
-      performances, drives and relief work with almost no pictures on the site.
-      Photographs of actual work will do more than any amount of design.
+- [ ] **Real photographs.** The highest-value addition by far. Pictures of camps,
+      performances, drives and relief work will do more for the site than any amount
+      of design.
 - [ ] **Names of office bearers** — president, secretary, treasurer.
 - [ ] **Real numbers** — villages covered, camps held, people reached. Even rough,
       honest figures are far stronger than adjectives.
@@ -97,9 +97,8 @@ but you should still read it and make it sound like you.
 
 | File | What it is | Note |
 |---|---|---|
-| `assets/img/logo.jpg` | The Sansthan's emblem, cropped from a photo of the signboard | Yours |
-| `assets/img/logo-small.jpg` | Same, smaller, for the header and favicon | Yours |
-| `assets/img/banner.jpg` | The letterhead / signboard graphic | Yours |
+| `assets/img/logo.jpg` | The Sansthan's emblem, lifted from the signboard photo, masked to its oval and set on a deep purple ground | Yours, enhanced |
+| `assets/img/logo-small.jpg` | Same mark at 180px, for the header and footer | Yours, enhanced |
 | `assets/img/og-image.jpg` | Share preview for WhatsApp, Facebook, X | Made from your logo |
 | `assets/img/favicon.svg` | Browser tab icon, drawn to match your emblem | New |
 | `assets/img/barmer-desert.jpg` | Barmer railway station | **Was on your Blogger site — please confirm you have the right to use it, or replace it with your own photo.** |
