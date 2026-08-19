@@ -1,0 +1,33 @@
+# Netlify configuration for the Subham Sansthan website.
+#
+# There is no build step. The files in this repository ARE the website, so
+# `publish` simply points at the repository root and no build command is set.
+# Keeping this in the repo means the deploy settings are version-controlled
+# rather than living only in the Netlify dashboard.
+
+[build]
+  publish = "."
+
+# Sensible security headers. None of these need a server - Netlify applies
+# them at the edge.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# Images, CSS and JS are safe to cache hard. If you replace an image, either
+# give the new file a different name or clear the cache from the Netlify
+# dashboard (Deploys > Trigger deploy > Clear cache and deploy site).
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+# HTML should always be revalidated so edits go live immediately.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
